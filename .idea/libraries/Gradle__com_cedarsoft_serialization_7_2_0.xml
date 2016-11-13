@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cedarsoft:serialization:7.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cedarsoft/serialization/7.2.0/29bd1db02077b3a2c819483b317e7b0f9eb7db12/serialization-7.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cedarsoft/serialization/7.2.0/2cab8ee46138e3812556d3af5174c31ab0c02a58/serialization-7.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

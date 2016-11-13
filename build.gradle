@@ -1,0 +1,20 @@
+group ''
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.jdbi', name: 'jdbi', version: '2.77'
+    compile 'org.skife.jdbi.v2:2.77'
+    compile 'com.h2database:h2:1.4.192'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.cedarsoft.serialization:jackson:7.2.0'
+}
